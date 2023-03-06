@@ -8,6 +8,6 @@ JOIN city ON city.city_id = address.city_id
 JOIN country ON country.country_id = city.country_id
 GROUP BY country.country
 ORDER BY COUNT(customer.customer_id) DESC
-LIMIT 1;
+LIMIT 1
 
 
